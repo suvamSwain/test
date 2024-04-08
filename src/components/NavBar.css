@@ -1,3 +1,7 @@
 .button:hover{
     border : solid 2px green;
 }
+
+.button:active{
+    border : solid 5px black;
+}
