@@ -2,6 +2,6 @@
     border : solid 2px green;
 }
 
-.button:active{
+.button:focus{
     border : solid 5px black;
 }
