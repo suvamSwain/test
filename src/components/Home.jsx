@@ -9,6 +9,7 @@ const Home = () =>{
 
     const GetData = () =>{
         AxiosInstance.get('project/').then((res)=>{
+            console.log(res.data)
             setMydata(res.data);
             setLoading(false);
         })
@@ -20,6 +21,7 @@ const Home = () =>{
 
     return (
         <div>
+            <p>This is home</p>
             {loading?<p>Loading data...</p> :
         <MatTable data={myData}/>
             }
