@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://suvamswain.pythonanywhere.com/'  // This is for the backend
+const baseUrl = 'http://www.suvamswain.pythonanywhere.com/'  // This is for the backend
 const AxiosInstance = axios.create({
     baseURL: baseUrl,
     timeout: 5000,
